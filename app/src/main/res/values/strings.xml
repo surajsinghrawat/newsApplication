@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">News Application</string>
+    <string name="author">Author</string>
+    <string name="newsapp">News Application</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="business">Business</string>
+    <string name="politics">Politics</string>
+    <string name="sport">Sports</string>
+    <string name="entertainment">Entertainment</string>
+</resources>

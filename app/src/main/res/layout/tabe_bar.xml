@@ -47,4 +47,15 @@
         android:layout_weight="1"
         android:gravity="center"/>
 
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        android:text="@string/location"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
 </LinearLayout>

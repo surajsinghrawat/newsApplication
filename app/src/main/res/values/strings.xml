@@ -7,4 +7,5 @@
     <string name="politics">Politics</string>
     <string name="sport">Sports</string>
     <string name="entertainment">Entertainment</string>
+    <string name="location">Location</string>
 </resources>

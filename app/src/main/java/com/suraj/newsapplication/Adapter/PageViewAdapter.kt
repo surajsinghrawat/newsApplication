@@ -22,6 +22,7 @@ class PageViewAdapter internal constructor(supportFragmentManager: FragmentManag
             2 -> fragment=SportFragment()
             3 -> fragment=EntertenmentFragment()
 
+
         }
         return fragment!!
     }

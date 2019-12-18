@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var politics : TextView
     private lateinit var sport : TextView
     private lateinit var entertainment : TextView
+    private lateinit var location : TextView
     private lateinit var viewPager: ViewPager
 
 
@@ -27,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         politics=findViewById(R.id.politics)
         sport=findViewById(R.id.sports)
         entertainment=findViewById(R.id.entertainment)
+        location=findViewById(R.id.location)
         viewPager=findViewById(R.id.viewPager)
         val adapter= PageViewAdapter(supportFragmentManager)
         viewPager.adapter=adapter
@@ -88,6 +90,9 @@ class MainActivity : AppCompatActivity() {
 
             entertainment.textSize= 15F
             entertainment.setTextColor(resources.getColor(R.color.colorPrimaryDark))
+
+            location.textSize=15F
+            location.setTextColor(resources.getColor(R.color.colorPrimaryDark))
             val endpoint:String= RequestClass.POLITICS
         }
         1 -> {
@@ -102,6 +107,9 @@ class MainActivity : AppCompatActivity() {
 
             entertainment.textSize= 15F
             entertainment.setTextColor(resources.getColor(R.color.colorPrimaryDark))
+
+            location.textSize=15F
+            location.setTextColor(resources.getColor(R.color.colorPrimaryDark))
         }
         2 -> {
             sport.textSize= 20F
@@ -115,6 +123,9 @@ class MainActivity : AppCompatActivity() {
 
             entertainment.textSize= 15F
             entertainment.setTextColor(resources.getColor(R.color.colorPrimaryDark))
+
+            location.textSize=15F
+            location.setTextColor(resources.getColor(R.color.colorPrimaryDark))
         }
         3 -> {
             entertainment.textSize= 20F
@@ -128,6 +139,9 @@ class MainActivity : AppCompatActivity() {
 
             bussines.textSize= 15F
             bussines.setTextColor(resources.getColor(R.color.colorPrimaryDark))
+
+            location.textSize=15F
+            location.setTextColor(resources.getColor(R.color.colorPrimaryDark))
         }
     }
 }
